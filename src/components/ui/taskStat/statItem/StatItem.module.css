@@ -1,0 +1,50 @@
+/*.content{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+
+
+/*}*/
+/*.count{*/
+/*    font-weight: 700;*/
+/*    font-size: 24px;*/
+/*    line-height: 30px;*/
+/*    margin-right: 20px;*/
+
+/*}*/
+/*.text{*/
+/*    font-weight: 400;*/
+/*    font-size: 16px;*/
+/*    line-height: 24px;*/
+
+/*}*/
+
+.stat_item {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Отступ между иконкой и контентом */
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* Отступ между текстом и числом */
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.count {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}

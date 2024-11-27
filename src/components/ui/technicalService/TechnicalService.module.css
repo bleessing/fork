@@ -1,0 +1,11 @@
+.form{
+    width: 740px;
+    background-color: #a36ee3;
+    padding: 16px 0 400px 16px  ;
+    border-radius : 8px;
+}
+.robot_header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,21 @@
+.form{
+    background-color: #6BA4FE;
+    border-radius: 8px;
+    padding: 23px 0 20px 30px;
+}
+.box{
+    align-items: center;
+}
+.mini{
+
+}
+.box_buttons{
+    padding: 10px;
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 20px   ;
+    column-gap: 10px;
+}
+

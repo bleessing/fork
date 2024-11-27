@@ -1,0 +1,26 @@
+.title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.section{
+    background-color: #FCFCFD;
+    padding-bottom: 15px;
+    border-radius: 8px
+
+
+
+}
+.section_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+/** Скрыть стрелочку при наведении на кнопки *!*/
+.button_end {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+}

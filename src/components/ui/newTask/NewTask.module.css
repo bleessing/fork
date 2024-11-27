@@ -1,0 +1,23 @@
+.form{
+
+    background: #FCFCFD;
+    margin: 30px auto 16px;
+    /*#FCFCFD;*/
+
+}
+.task_title{
+    display: flex;
+    gap: 10px;
+    height: 32px;
+    align-items: center;
+    padding: 16px 0 0 16px;
+}
+.selects{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    margin: 2rem 7rem ;
+    padding-bottom: 40px;
+
+}
