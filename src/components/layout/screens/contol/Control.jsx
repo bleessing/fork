@@ -41,19 +41,22 @@ const Control = () => {
     return (
         <div className={styles.main}>
             <Layout style={{
-                paddingTop: 40,
                 border: 8,
-                background: '#b6fa49',
+
             }}>
-                <Sider width={200}
-                style={{backgroundColor: '#6BA4FE'}}>
-                    <Menu theme={"dark"} mode={'inline'}
+                <Sider width={250}  style={{
+                    backgroundColor: "#F9FAFB"
+                }}
+                >
+                    <Menu  mode={'inline'}
 
                           items={items}
                           defaultSelectedKeys={['1']}
+
                     style={{
-                        height: '100%',
-                        borderRight: 0,
+                        borderRadius: 8,
+                        backgroundColor: '#F2F4F7',
+
                     }}/>
 
                 </Sider>
@@ -63,8 +66,6 @@ const Control = () => {
                     <Content style={{
                         padding: '24px',
                         margin: 0,
-                        minHeight: 280,
-                        background: "RGB(156, 93, 254)",
                         borderRadius: "8px",
                         display: 'flex',
                         justifyContent: 'space-between',

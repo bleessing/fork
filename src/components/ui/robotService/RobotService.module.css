@@ -1,8 +1,9 @@
 .robot_list{
-    background-color: #a36ee3;
+    background-color: #F9FAFB;
     width: 670px;
     padding: 16px   ;
     border-radius : 8px;
+    height: 100%;
 }
 .robot_header{
     display: flex;
@@ -10,12 +11,15 @@
     gap: 10px;
 }
 .robot_table{
-    margin: 20px 0;
+    margin: 20px 0 0;
+
 
 }
 .success_row{
-    background-color: #d9f7be
+    background-color: #d9f7be;
+
 }
 .error_row{
-    background-color: #ffccc7
+    background-color: #ffccc7;
+
 }

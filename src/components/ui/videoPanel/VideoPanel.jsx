@@ -52,36 +52,41 @@ const VideoPanel = () => {
         }
     ]
     return (
-        <div className={styles.form}>
-            <Flex vertical gap={"middle"}>
-                <Radio.Group block
-                             options={options}
-                             buttonStyle={"solid"}
-                             optionType={'button'}
-                             defaultValue={'video'}/>
+        <div className={styles.column}>
 
-                <iframe
-                    className={styles.video}
-                    title="Live Video"
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/fNUXtSQSgWM"
-                    frameBorder=""
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen>
+            <div className={styles.form}>
+                <Flex vertical gap={"middle"}>
+                    <Radio.Group block
+                                 options={options}
+                                 buttonStyle={"solid"}
+                                 optionType={'button'}
+                                 defaultValue={'video'}/>
 
-                </iframe>
-                <div className={styles.video_footer}>
-                    <span className={styles.title}>Видео с текущего положения</span>
-                    <Button variant={"default"}>Обновить</Button>
-                </div>
+                    <iframe
+                        className={styles.video}
+                        title="Live Video"
+                        width="100%"
+                        height="315"
+                        src="https://www.youtube.com/embed/fNUXtSQSgWM"
+                        frameBorder=""
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
 
-            </Flex>
-            <div>
-                <span>Отчет о состоянии</span>
-                <Table columns={columns} dataSource={data} pagination={false} />
+                    </iframe>
+                    <div className={styles.video_footer}>
+                        <span className={styles.title}>Видео с текущего положения</span>
+                        <Button variant={"default"}>Обновить</Button>
+                    </div>
+
+                </Flex>
 
             </div>
+            <div className={styles.table}>
+                <span>Отчет о состоянии</span>
+                <Table columns={columns} dataSource={data} pagination={false}/>
+
+            </div>
+
         </div>
 
     );

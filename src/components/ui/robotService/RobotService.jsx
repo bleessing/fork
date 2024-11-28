@@ -108,7 +108,7 @@ const RobotService = () => {
                 </Space>
             </div>
             <div className={styles.robot_table}>
-            <Table columns={columns} dataSource={robotSource} pagination={false} size={'small'} rowClassName={getRowClassName}></Table>
+            <Table bordered columns={columns} dataSource={robotSource} pagination={false} size={'small'} rowClassName={getRowClassName}></Table>
             </div>
 
 

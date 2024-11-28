@@ -85,43 +85,52 @@ const Auth = () => {
     }
 
     return (
-        <div className={styles.form}>
-        <div>
-            <img src={'Tatneft-Logo.wine.svg'}/>
-        </div>
+        <>
 
-       <Form onFinish={handleSubmit}>
-           <Form.Item
-           label='login'
-           name='login'
-           rules={[{
+            <img src={'Tatneft-Logo.wine.svg'} className={styles.logo}/>
+            <div className={styles.form}>
 
-               message: 'Введите Логин'
-           }]}>
-               <Input  ref={userRef} value={login} />
 
-           </Form.Item>
-           <Form.Item
-           label='password'
-           name='password'
-           rules={[{
+                <h2>Авторизация</h2>
 
-               message: 'Введите пароль'
-           }]}>
-               <Input.Password value={password}
-               />
+                <Form onFinish={handleSubmit}>
+                    <Form.Item
+                        className={styles.login}
+                        layout={'vertical'}
+                        label='login'
+                        name='login'
+                        gap={'20px'}
+                        rules={[{
 
-           </Form.Item>
-           <Form.Item name='remember' valuePropName='checked' label={null}>
-               <Checkbox>Запомнить меня</Checkbox>
-           </Form.Item>
-           <Form.Item label={null}>
-               <Button type="primary" htmlType="submit" >
-                   Войти
-               </Button >
-           </Form.Item>
-       </Form>
-        </div>
+                            message: 'Введите Логин'
+                        }]}>
+                        <Input ref={userRef} value={login}/>
+
+                    </Form.Item>
+                    <Form.Item
+                        className={styles.password}
+                        layout={'vertical'}
+                        label='password'
+                        name='password'
+                        rules={[{
+
+                            message: 'Введите пароль'
+                        }]}>
+                        <Input.Password value={password}
+                        />
+
+                    </Form.Item>
+                    <Form.Item name='remember' valuePropName='checked' label={null}>
+                        <Checkbox>Запомнить меня</Checkbox>
+                    </Form.Item>
+
+                        <Button type="primary" htmlType="submit">
+                            Войти
+                        </Button>
+
+                </Form>
+            </div>
+        </>
     )
 }
 export default Auth

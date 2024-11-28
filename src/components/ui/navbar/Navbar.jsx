@@ -34,9 +34,11 @@ function    Navbar() {
         <nav>
 
             <ul className={styles.nav_list}>
+                <div className={styles.logo_box}>
                 <Link to={'..'} onClick={() => navigate(-1)} className={styles.logo}>
                     <img src={"Tatneft-Logo.wine.svg"}/>
                 </Link>
+                </div>
 
 
                 {navItems.map((item, index) => (

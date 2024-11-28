@@ -1,18 +1,15 @@
 .main{
     margin: 30px auto;
-    width: 1420px;
+    width: 1440px;
 
-    display: grid;
-    gap: 30px;
-    grid-template-areas:
-    'A B B'
-    'A B B'
-    'A B B'
+
+
 
 }
-.box-1 {
-    grid-area: A;
-}
-.box-2 {
-    grid-area: B;
-}
+/*.box-1 {*/
+/*    grid-area: A;*/
+/*    padding-right: 50px;*/
+/*}*/
+/*.box-2 {*/
+/*    grid-area: B;*/
+/*}*/

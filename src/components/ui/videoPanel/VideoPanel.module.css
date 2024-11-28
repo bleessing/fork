@@ -1,8 +1,13 @@
+.column{
+    display: flex;
+    flex-direction: column;
+}
 .form {
-    background-color: #d65766;
+    background-color: #FCFCFD;
     width: 560px;
-    padding: 0 0 300px;
     border-radius: 8px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .video {
@@ -24,4 +29,10 @@
 
 
 
+}
+.table {
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #FCFCFD;
+    padding: 10px 0 10px 30px;
 }

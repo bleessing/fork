@@ -1,5 +1,7 @@
 .main{
-    margin: 30px auto;
-    width: 1220px;
-    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1440px;
+    background: #F9FAFB;
+    padding: 20px 0;
+    border-radius: 8px;
 }

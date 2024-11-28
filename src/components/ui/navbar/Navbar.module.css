@@ -1,10 +1,7 @@
 .nav_list{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     gap: 40px;
-    position: relative;
-
 
 }
 .nav_item{
@@ -32,9 +29,25 @@
 .active{
     color:#6BA4FE;
 }
-.logo  {
-    position: absolute;
-    width: 190px;
-    left: -200px;
-    bottom: 7px   ;
+/* Navbar.module.css */
+.logo_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px; /* Добавьте отступ снизу, если нужно */
+    margin-right: 30px;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px; /* Установите ширину логотипа */
+    height: 30px; /* Установите высоту логотипа */
+    /* Сделайте логотип круглым, если нужно */
+
+}
+
+
+
+

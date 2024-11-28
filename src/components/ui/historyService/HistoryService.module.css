@@ -1,6 +1,14 @@
 .form{
-    background-color: #1eeef6;
+    background-color: #F9FAFB;
     border-radius: 8px;
-    padding: 0 0 300px 0;
+    width: 760px;
 
+}
+.table{
+    padding: 10px;
+}
+.filters{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 15px 20px 0;
 }

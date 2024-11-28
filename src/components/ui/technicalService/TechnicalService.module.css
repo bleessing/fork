@@ -1,11 +1,16 @@
 .form{
-    width: 740px;
-    background-color: #a36ee3;
-    padding: 16px 0 400px 16px  ;
+    width: 760px;
+    background-color: #F9FAFB;
+
     border-radius : 8px;
 }
 .robot_header{
     display: flex;
+    padding: 16px;
     align-items: center;
     gap: 10px;
+}
+.table {
+    padding : 10px;
+
 }
